@@ -1,15 +1,12 @@
 # HeapSort(힙 정렬)
 ## References
 
----
-
 https://st-lab.tistory.com/225
 <br>
 https://www.programiz.com/dsa/heap-sort
 
 ## Description
 
----
 ### 시간 복잡도 및 공간 복잡도
 - 시간 복잡도: O(nlogn)
 - 공간 복잡도: O(1)
@@ -22,9 +19,17 @@ https://www.programiz.com/dsa/heap-sort
 - 일반적인 O(nlog(n)) 정렬 알고리즘에 비해 성능은 약간 떨어지는 편이다.
 - 한 번 최대힙을 만들면서 불안정 정렬 상태에서 최대값만을 가지고 정렬하기 때문에 안정 정렬이 아니다.
 
-## Code
+## 노트 필기
 
----
+![알고리즈무-10](https://user-images.githubusercontent.com/79316402/222917341-90f7f852-5c74-4304-b2ed-01eaee4ab1f8.jpg)
+
+![알고리즈무-11](https://user-images.githubusercontent.com/79316402/222917347-a1ba94ab-733e-40f0-a158-12cd2879b202.jpg)
+
+![알고리즈무-12](https://user-images.githubusercontent.com/79316402/222917355-8f1f5a79-27ae-4729-913f-fbe14b692a02.jpg)
+
+![알고리즈무-13 2](https://user-images.githubusercontent.com/79316402/222917359-3e881a55-f2b0-4bda-b1c7-0051b4395afc.jpg)
+
+## Code
 
 - 재귀적 방법
 ```java
