@@ -8,7 +8,7 @@ https://www.programiz.com/dsa/heap-sort
 ## Description
 
 ### 시간 복잡도 및 공간 복잡도
-- 시간 복잡도: O(nlogn)
+- 시간 복잡도: O(nlog(n))
 - 공간 복잡도: O(1)
 
 ### 장점
